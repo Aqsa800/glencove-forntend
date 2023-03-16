@@ -404,6 +404,7 @@ position: absolute;
 left: 50%;
 top: 50%;
 transform: translateX(-50%);
+text-transform: uppercase;
 }
 
 .darkNaveBar {
@@ -1086,7 +1087,7 @@ margin: 20px auto 80px;
 text-align: center;  
 }
 .formSection{
-    margin-bottom: 50px;
+margin-bottom: 50px;
 }
 .fieldBar .form-select{
 background-image: url("../img/select-down-icon.png");
@@ -1098,10 +1099,53 @@ border-right: 1px solid #000 !important;
 height: 39px;
 }
 .iti__arrow{
-    border: 0px !important;
-    background-image: url(../img/select-down-icon.png);
-    width: 11px;
-    height: 6px;
-    background-size: contain;
-    background-repeat: no-repeat;
+border: 0px !important;
+background-image: url(../img/select-down-icon.png);
+width: 11px;
+height: 6px;
+background-size: contain;
+background-repeat: no-repeat;
+}
+.contactUsContent{
+    padding-right: 50px;
+}
+.contactInfo{
+margin-top: 40px;
+}
+.cnTitle{
+font-size: 22px;
+width: fit-content;
+display: block;
+border-bottom: 1.5px solid #cfa336;
+color: #fff;
+padding-bottom: 3px;
+margin-bottom: 15px;
+}
+.contactInfo .contactBox{
+margin-top: 40px;
+}
+.cnLink{
+color: #cfa336;
+text-decoration: none;
+font-size: 16px;
+font-weight: 400;  
+max-width: 300px;
+display: block;
+}
+.cnLink:hover{
+color: #fff;
+}
+.contactUsContent > h2{
+font-size: 36px;
+color: #fff;
+text-transform: uppercase;
+font-weight: 700;
+margin-bottom: 20px;
+}
+.SignUpform.smForm{
+    max-width: 400px;
+}
+.SignUpform.smForm .formTitle h3{
+font-size: 18px;
+    font-weight: 500
 }

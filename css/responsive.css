@@ -193,4 +193,20 @@ margin-bottom: 40px;
 .counterSection {
 height: auto;
 }
+.contactUsContent{
+	text-align: center;
+	padding-right: 0px;
+}
+.cnTitle{
+	margin: 0 auto 15px;
+}
+.cnLink{
+	max-width: 100%;
+}
+.contactInfo{
+	margin-bottom: 40px;
+}
+.contactUsContent > h2{
+	font-size: 28px;
+}
 }
