@@ -1,7 +1,27 @@
-@media (max-width: 1200px) {}
+@media (max-width: 1200px) {
+	.userInfoClm .userInfo h3{
+		font-size: 28px;
+	}
+	.userInfoClm .userImg{
+	 width: 150px;
+      height: 150px;
+	}
+}
 
 @media (max-width: 992px) {
-
+	.userInfoClm .userInfo{
+		    border-bottom: 1.5px solid #cfa336;
+		    border-right: 0px;
+    padding-bottom: 20px;
+    text-align: center;
+	}
+.userProCard{
+	flex-direction: column;
+}
+.userInfoClm{
+	    width: 100%;
+    flex-direction: column;
+}
 .sectionImg-1 {
 width: 50vw;
 height: 480px;
@@ -39,11 +59,36 @@ border-radius: 5px;
 position: relative;
 z-index: 99;
 }
+.userDetailClm{
+	width: 100%;
+}
 }
 
 
 
 @media (max-width: 768px) {
+	#sync2 .owl-nav .owl-next{
+		right: -25px;
+	}
+	#sync2 .owl-nav .owl-prev{
+		left: -15px;
+	}
+	#sync1{
+		margin-bottom: 10px;
+	}
+	#sync2 .item{
+		margin: 5px;
+	}
+.thumbnailSliderImg{
+	height: 90px;
+}
+.sliderImg, #sync1 .owl-stage-outer{
+	height: 300px;
+}
+.propertyInfo{
+	flex-direction: column;
+	gap: 30px;
+}
 .partner-header{
 height: 400px;
 }

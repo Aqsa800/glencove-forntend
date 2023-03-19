@@ -20,7 +20,7 @@
 
 
 
-	let items = document.querySelectorAll('.carousel .carousel-item')
+	let items = document.querySelectorAll('.carouselArea .carousel-item')
 
 	items.forEach((el) => {
 		const minPerSlide = 5
@@ -67,5 +67,12 @@
 
 const application = Stimulus.Application.start()
 application.register('file-input', FileInputController)
+
+
+
+
+
+
+
 
 
