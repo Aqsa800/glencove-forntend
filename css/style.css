@@ -1189,7 +1189,7 @@ transition: all .3s ease;
 background-color: #D6D6D6;
 }
 #sync1{
-    margin-bottom: 15px;
+margin-bottom: 15px;
 }
 
 #sync1.owl-theme {
@@ -1353,40 +1353,40 @@ text-transform: uppercase;
 text-decoration: none;
 }
 .mr-b-40{
-    margin-bottom: 40px;
+margin-bottom: 40px;
 }
 .pagePaginationList{
-    display: flex;
-    gap: 10px;
-    flex-flow: wrap;
-    margin-bottom: 40px;
+display: flex;
+gap: 10px;
+flex-flow: wrap;
+margin-bottom: 40px;
 }
 .pagePaginationList p{
-    font-size: 14px;
-    color: #fff;
+font-size: 14px;
+color: #fff;
 }
 .headerConatentArea .headerTitle{
-    position: relative;
-    left: unset;
-    top: unset;
-    transform: unset;
-    margin-bottom: 20px;
+position: relative;
+left: unset;
+top: unset;
+transform: unset;
+margin-bottom: 20px;
 }
 .headerConatentArea{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 100%;
+justify-content: center;
 }
 .pagePaginationList span{
-    color:#fff;
-    display: block;
-    line-height: 10px;
+color:#fff;
+display: block;
+line-height: 10px;
 }
 .thumbnailSliderImg{
-    border-radius: 20px;
-    border:2px solid #fff;
+border-radius: 20px;
+border:2px solid #fff;
 }
 #sync2 .item .thumbnailSliderImg{
 opacity: 0.5;
@@ -1395,14 +1395,14 @@ opacity: 0.5;
 opacity: 1;
 }
 .homeElementIcon{
-    width: 18px;
-    height: 18px;
-    object-fit: contain;
+width: 18px;
+height: 18px;
+object-fit: contain;
 }
 .WhatsAppIcon{
-    width: 20px;
-    height: 20px;
-    object-fit: contain;
+width: 20px;
+height: 20px;
+object-fit: contain;
 }
 #sync2 .owl-nav .owl-next{
 position: absolute;
