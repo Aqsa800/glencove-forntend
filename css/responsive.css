@@ -56,22 +56,30 @@ color: #000;
 background: #ffff;
 padding: 15px 15px;
 border-radius: 5px;
-position: relative;
-z-index: 99;
+position: absolute;
+    left: 0;
+    top: 106px;
+    z-index: 99;
+    margin-bottom: 20px;
+    width: 100%;
 }
 .userDetailClm{
 	width: 100%;
 }
+.linesShapesList{
+		display: none;
+	}
 }
 
 
 
 @media (max-width: 768px) {
+
 	#sync2 .owl-nav .owl-next{
-		right: -25px;
+		right: 0px;
 	}
 	#sync2 .owl-nav .owl-prev{
-		left: -15px;
+		left: 5px;
 	}
 	#sync1{
 		margin-bottom: 10px;
@@ -253,5 +261,11 @@ height: auto;
 }
 .contactUsContent > h2{
 	font-size: 28px;
+}
+.fixed-top .navigationBar .menuListBar .nav-item .nav-link{
+	color: #000;
+}
+.darkNaveBar .navigationBar .menuListBar .nav-item .nav-link{
+	color: #000;
 }
 }
