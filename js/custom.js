@@ -20,6 +20,28 @@ document.addEventListener("DOMContentLoaded", function(){
 	}); 
 
 
+
+$('#logos-carousel').owlCarousel({
+    loop: true,
+    margin: 30,
+    dots: false,
+    nav: true,
+    items: 5,
+     responsive: {
+        0:{
+          items: 2
+        },
+        480:{
+          items: 2
+        },
+        769:{
+          items: 5
+        }
+    }
+});
+
+
+
 	$(document).ready(function () {
 		$("#testimonial-slider").owlCarousel({
 			items: 3,
@@ -30,42 +52,22 @@ document.addEventListener("DOMContentLoaded", function(){
 			pagination: true,
 			navigation: false,
 			slideSpeed: 1000,
-			autoPlay: true
+			autoPlay: true,
+			dots: true,
+    nav: true,
+    responsive: {
+        0:{
+          items: 1
+        },
+        480:{
+          items: 2
+        },
+        769:{
+          items: 3
+        }
+    }
 		});
 	});
-
-
-
-
-
-
-
-	let items = document.querySelectorAll('.carouselArea .carousel-item')
-
-	items.forEach((el) => {
-		const minPerSlide = 5
-		let next = el.nextElementSibling
-		for (var i = 1; i < minPerSlide; i++) {
-			if (!next) {
-				// wrap carousel by using first child
-				next = items[0]
-			}
-			let cloneChild = next.cloneNode(true)
-			el.appendChild(cloneChild.children[0])
-			next = next.nextElementSibling
-		}
-	})
-
-
-   $("#mobile_code").intlTelInput({
-	initialCountry: "ae",
-	separateDialCode: true,
-	// utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.4/js/utils.js"
-});
-
-
-
-
 
 
 
